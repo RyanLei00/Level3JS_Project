@@ -1,0 +1,33 @@
+body {
+  background-color: antiquewhite;
+  color: palevioletred;
+  text-align: center;
+}
+
+div {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 30px;
+}
+
+button {
+  font-size: 30px;
+  background-color: azure;
+  border: medium solid palevioletred;
+  color: palevioletred;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  border: solid palevioletred;
+  padding: 3px;
+  width: 15%;
+}
+
+th {
+  border: solid palevioletred;
+  padding: 5px;
+}
