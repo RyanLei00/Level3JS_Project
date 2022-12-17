@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Roll Roll Roll Your Dice Project</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body onload="initialize();">
+    <h1>Roll Roll Roll Your Dice</h1>
+    <h2>
+        <form id="inputs">
+            Number of Dice/Die (1, 2, 3): <input name="nDice" type="number">
+            <br>
+            Number of Rolls: <input name="nRolls" type="number">
+        </form>
+        <br>
+        <button onclick="evaluateRoll();">Roll Dice</button>
+        <br>
+    </h2>
+    <table id="table">
+        <tr id="dtablehead">
+            <th>Mean</th>
+            <th>Mode</th>
+            <th>Median</th>
+        </tr>
+    </table>
+    <table id="freqtable">
+        <tr>
+            <th>Numbers</th>
+            <th>Frequency</th>
+        </tr>
+    </table>
+</body>
+
+</html>
